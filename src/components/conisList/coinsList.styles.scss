@@ -1,0 +1,40 @@
+.coinListContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.tableContainer {
+  width: 90%;
+  margin: 35px auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tbody {
+  cursor: pointer;
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+}
+
+td:first-child {
+  img {
+    margin-bottom: -3px;
+  }
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+img {
+  width: 18px;
+  max-height: 18px;
+  margin-right: 5px;
+}
